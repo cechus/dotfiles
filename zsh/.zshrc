@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/cechus/.oh-my-zsh
+  export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -99,10 +99,10 @@ source $ZSH/oh-my-zsh.sh
 alias phpunit="./vendor/bin/phpunit"
 alias art="php artisan"
 
-source "/home/cechus/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+source "~/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 export PATH=~/.config/composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/postgresql/9.6/bin
 
-export NVM_DIR="/home/cechus/.nvm"
+export NVM_DIR="~/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" 
 
 
