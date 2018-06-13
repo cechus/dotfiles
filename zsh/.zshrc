@@ -100,7 +100,8 @@ alias phpunit="./vendor/bin/phpunit"
 alias art="php artisan"
 
 source "/home/cechus/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
-export PATH=~/.config/composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+export PATH=~/.config/composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/postgresql/9.6/bin
+
 export NVM_DIR="/home/cechus/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" 
 
