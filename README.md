@@ -1,20 +1,15 @@
-# clone 
-
+# 1. install zsh
 ```bash
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
-git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-
-git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
-
-ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
-
-$(cd $ZSH_CUSTOM/plugins && git clone https://github.com/chrissicool/zsh-256color)
+sudo apt install zsh
 ```
+# 2. install oh my zsh
 ```bash
-source ~/.zshrc
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-## iconos para terminal
+# 3. run install.sh with sudo
 ```bash
-sudo apt install fonts-emojione-svginot
+sudo ./install.sh
 ```
+**note:**
+    Dar permisos de ejecucion `chmod +x install.sh`
+# 4. configure 
