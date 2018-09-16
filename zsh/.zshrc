@@ -99,7 +99,6 @@ source $ZSH/oh-my-zsh.sh
 alias phpunit="./vendor/bin/phpunit"
 alias art="php artisan"
 
-source "~/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 export PATH=~/.config/composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/postgresql/9.6/bin
 
 export NVM_DIR="~/.nvm"
