@@ -99,10 +99,11 @@ source $ZSH/oh-my-zsh.sh
 alias phpunit="./vendor/bin/phpunit"
 alias art="php artisan"
 
-export PATH=~/.config/composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/postgresql/9.6/bin
-
-export NVM_DIR="~/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" 
+export PATH=~/.config/composer/vendor/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/postgresql/9.6/bin:/opt/DataGrip-2018.2.2/bin
 
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+export HISTTIMEFORMAT="%d/%m/%y %T "
